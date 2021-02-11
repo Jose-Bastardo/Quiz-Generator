@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    justify-content: center;
+    font-family: calibri, serif;
+}
+main {
+    width: 60%;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 0 2rem 2rem 2rem;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+section {
+    display: flex;
+    overflow: hidden;
+}
+
+input[type="submit"] {
+    margin-top: 1.5rem;
+    transform: scale(1.2);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input[type="radio"] {
+    transform: scale(1.2);
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 2rem 3rem 0 3rem;
+}
+
+footer div input{
+    transform: scale(1.5);
+}
+
+section div {
+    min-width: 100%;
+}
+
+section div form{
+    padding: 0 2rem;
+}
+
+.radio{
+    width: max-content;
+}
+
+.label{
+    width: 100%;
+    height: 5rem;
+}
+
+td p {
+    text-wrap: none;
+}
